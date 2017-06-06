@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SI>
+
+<!--.........................................................................................-->
+    <Environnement Name="PRD">
+		
+		<Application Name="SharePoint 2013">
+			<URL>http://server1:40000</URL>
+			<URL>http://server2:40000</URL>
+			<URL>https://URL.com/</URL>
+      <Managed_Account>account1</Managed_Account>
+			<Managed_Account>account2</Managed_Account>
+		</Application>
+      
+     
+
