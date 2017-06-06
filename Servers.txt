@@ -1,4 +1,0 @@
-Servername1
-Servername2
-Servername3
-Servername4
