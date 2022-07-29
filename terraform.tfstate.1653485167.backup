@@ -1,0 +1,135 @@
+{
+  "version": 4,
+  "terraform_version": "1.0.8",
+  "serial": 7,
+  "lineage": "bcc7681f-b17d-5221-ce28-cb263cf3d450",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "nutanix_virtual_machine",
+      "name": "vm-windows",
+      "provider": "provider[\"registry.terraform.io/nutanix/nutanix\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "3.1",
+            "availability_zone_reference": {},
+            "boot_device_disk_address": {},
+            "boot_device_mac_address": "",
+            "boot_device_order_list": [],
+            "boot_type": "",
+            "categories": [],
+            "cloud_init_cdrom_uuid": null,
+            "cluster_name": "SRX-SMI-CVM-IP",
+            "cluster_uuid": "000587e9-9979-6b25-1c9c-7cd30a6a4170",
+            "description": "Test création vm via terraform",
+            "disk_list": [
+              {
+                "data_source_reference": {
+                  "kind": "image",
+                  "uuid": "18df0376-a478-4e3e-bf5e-db53709dcc5d"
+                },
+                "device_properties": [
+                  {
+                    "device_type": "CDROM",
+                    "disk_address": {
+                      "adapter_type": "SATA",
+                      "device_index": "0"
+                    }
+                  }
+                ],
+                "disk_size_bytes": 4863174656,
+                "disk_size_mib": 4638,
+                "storage_config": [],
+                "uuid": "af936a70-fa9b-4e8f-bf3f-57fc1daea34f",
+                "volume_group_reference": {}
+              }
+            ],
+            "enable_script_exec": false,
+            "gpu_list": [],
+            "guest_customization_cloud_init_custom_key_values": {},
+            "guest_customization_cloud_init_meta_data": "",
+            "guest_customization_cloud_init_user_data": "",
+            "guest_customization_is_overridable": false,
+            "guest_customization_sysprep": {},
+            "guest_customization_sysprep_custom_key_values": {},
+            "guest_os_id": "",
+            "hardware_clock_timezone": "UTC",
+            "host_reference": {
+              "kind": "host",
+              "name": "10.127.0.51",
+              "uuid": "779e7500-7b66-4db0-aaf2-7d7f99beb279"
+            },
+            "hypervisor_type": null,
+            "id": "536179f2-2a3a-4630-a604-8bd892235407",
+            "machine_type": "PC",
+            "memory_size_mib": 4096,
+            "metadata": {
+              "creation_time": "2021-10-06 13:51:26 +0000 UTC",
+              "last_update_time": "2021-10-06 13:51:32 +0000 UTC",
+              "name": "",
+              "spec_hash": "",
+              "spec_version": "1",
+              "uuid": "536179f2-2a3a-4630-a604-8bd892235407"
+            },
+            "name": "test_terraform_amo",
+            "ngt_credentials": {},
+            "ngt_enabled_capability_list": [],
+            "nic_list": [
+              {
+                "ip_endpoint_list": [],
+                "is_connected": "true",
+                "mac_address": "50:6b:8d:59:cd:dc",
+                "model": "",
+                "network_function_chain_reference": {},
+                "network_function_nic_type": "",
+                "nic_type": "NORMAL_NIC",
+                "subnet_name": "DMZ_MUT_SVC_R",
+                "subnet_uuid": "a0aa3cbf-1ec8-430f-b31a-5f0e5ae61241",
+                "uuid": "75972f5e-8b46-44ef-978e-f2c881bc214c"
+              }
+            ],
+            "nic_list_status": [
+              {
+                "floating_ip": "",
+                "ip_endpoint_list": [],
+                "is_connected": "true",
+                "mac_address": "50:6b:8d:59:cd:dc",
+                "model": "",
+                "network_function_chain_reference": {},
+                "network_function_nic_type": "",
+                "nic_type": "NORMAL_NIC",
+                "subnet_name": "DMZ_MUT_SVC_R",
+                "subnet_uuid": "a0aa3cbf-1ec8-430f-b31a-5f0e5ae61241",
+                "uuid": "75972f5e-8b46-44ef-978e-f2c881bc214c"
+              }
+            ],
+            "num_sockets": 2,
+            "num_vcpus_per_socket": 2,
+            "num_vnuma_nodes": 0,
+            "nutanix_guest_tools": {},
+            "owner_reference": {
+              "kind": "user",
+              "name": "adm_moreau_a@somei.fr",
+              "uuid": "2fc1b83e-897a-588d-9fe6-243fb0f4534f"
+            },
+            "parent_reference": {},
+            "power_state": "ON",
+            "power_state_mechanism": "HARD",
+            "project_reference": {},
+            "serial_port_list": [],
+            "should_fail_on_script_failure": false,
+            "state": "COMPLETE",
+            "use_hot_add": true,
+            "vga_console_enabled": true
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ]
+}
