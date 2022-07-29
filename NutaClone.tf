@@ -22,7 +22,7 @@ resource "nutanix_virtual_machine" "vm-windows" {
   num_vcpus_per_socket = 2
   num_sockets          = 2
   memory_size_mib      = 4096
-  var_files = ["variables.tfvars"]
+  var_files = ["terraform.tfvars"]
 
   # This parent_reference is what actually tells the provider to clone the specified VM
   parent_reference = {
