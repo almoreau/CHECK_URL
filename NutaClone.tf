@@ -22,7 +22,7 @@ variable "username" {
 variable "password" {
   description = "Value of Password"
   type        = string
-  default     = "aaaaat"
+  default     = "@greentavernale@2022"
 }
 
 
