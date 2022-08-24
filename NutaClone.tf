@@ -19,6 +19,12 @@ variable "username" {
   default     = "adm_moreau_a@.intranet"
 }
 
+variable "password" {
+  description = "Value of Password"
+  type        = string
+  default     = "aaaaat"
+}
+
 
 resource "nutanix_virtual_machine" "vm-windows" {
 
