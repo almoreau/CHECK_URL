@@ -13,6 +13,13 @@ provider "nutanix" {
    endpoint           = "SRX-SMI-CVM-IP" # IP of Prism Element or Prism Central
 }
 
+variable "username" {
+  description = "Value of Username"
+  type        = string
+  default     = "adm_moreau_a@.intranet"
+}
+
+
 resource "nutanix_virtual_machine" "vm-windows" {
 
  
